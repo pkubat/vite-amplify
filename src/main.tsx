@@ -2,9 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-import { defineBackend } from '@aws-amplify/backend';
+// Remove per AWS Amplify
+// import { defineBackend } from '@aws-amplify/backend';
 
-defineBackend({});
+// defineBackend({});
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
